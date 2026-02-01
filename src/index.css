@@ -376,3 +376,60 @@ a {
     display: none;
   }
 }
+
+
+
+.auth {
+  min-height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+  padding: 30px 0;
+  background: #f8fafc;
+}
+
+.auth__box {
+  width: min(420px, 92%);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.auth__form {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.auth__form label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.auth__form input {
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  outline: none;
+}
+
+.auth__error {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: #9f1239;
+  font-weight: 600;
+}
+
+.auth__foot {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.muted {
+  color: var(--muted);
+}
