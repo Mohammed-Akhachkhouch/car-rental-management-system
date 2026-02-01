@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Navbar() {
+  const nav = useNavigate();
+
   return (
     <header className="nav">
       <div className="container nav__inner">
@@ -12,8 +16,19 @@ export default function Navbar() {
         </nav>
 
         <div className="nav__actions">
-          <button className="btn btn--ghost">Login</button>
-          <button className="btn btn--primary">Sign up</button>
+          <button
+            className="btn btn--ghost"
+            onClick={() => nav("/login")}
+          >
+            Login
+          </button>
+
+          <button
+            className="btn btn--primary"
+            onClick={() => nav("/signup")}
+          >
+            Sign up
+          </button>
         </div>
       </div>
     </header>
