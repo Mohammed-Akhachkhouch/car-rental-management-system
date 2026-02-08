@@ -1,0 +1,66 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 760 220"
+  role="img"
+  aria-labelledby="logoTitle logoDesc"
+>
+  <title id="logoTitle">Ste CHAHID CAR</title>
+  <desc id="logoDesc">Car rental logo in red and blue colors.</desc>
+  <path
+    d="M96 96h88l88-20h194l72 16h74"
+    fill="none"
+    stroke="#b5121b"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M232 76l84-34h238l76 34"
+    fill="none"
+    stroke="#b5121b"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M286 98h126m34 0h108"
+    fill="none"
+    stroke="#b5121b"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <circle cx="170" cy="125" r="30" fill="none" stroke="#b5121b" stroke-width="7" />
+  <circle cx="552" cy="125" r="30" fill="none" stroke="#b5121b" stroke-width="7" />
+  <text
+    x="66"
+    y="170"
+    fill="#b5121b"
+    font-size="30"
+    font-family="'Trebuchet MS', Verdana, sans-serif"
+    font-weight="700"
+  >
+    Ste
+  </text>
+  <text
+    x="60"
+    y="206"
+    fill="#b5121b"
+    font-size="76"
+    font-family="'Trebuchet MS', Verdana, sans-serif"
+    font-weight="800"
+    letter-spacing="2"
+  >
+    CHAHID CAR
+  </text>
+  <text
+    x="200"
+    y="218"
+    fill="#123b73"
+    font-size="30"
+    font-family="'Trebuchet MS', Verdana, sans-serif"
+    font-weight="800"
+    letter-spacing="6"
+  >
+    LOCATION DE VOITURE
+  </text>
+</svg>
