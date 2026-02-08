@@ -1,33 +1,38 @@
-export default function WhyChooseUs() {
-  const items = [
-    {
-      title: "Best Price Guarantee",
-      desc: "Transparent pricing with no hidden fees.",
-    },
-    {
-      title: "Verified Fleet",
-      desc: "Every car is checked and ready for your trip.",
-    },
-    {
-      title: "24/7 Roadside Assist",
-      desc: "Support whenever you need it, anywhere you go.",
-    },
-  ];
+const items = [
+  {
+    title: "Best Price Guarantee",
+    desc: "Transparent daily rates with no hidden fees or surprise checkout costs.",
+  },
+  {
+    title: "Verified Fleet",
+    desc: "Every vehicle is inspected before handover and maintained on schedule.",
+  },
+  {
+    title: "Flexible Pickup & Return",
+    desc: "Multiple locations in Agadir region with quick handover procedures.",
+  },
+  {
+    title: "24/7 Assistance",
+    desc: "Fast support for booking changes, roadside help, and trip updates.",
+  },
+];
 
+export default function WhyChooseUs() {
   return (
-    <section className="section muted">
+    <section id="offers" className="section muted">
       <div className="container">
-        <h2 className="section__title center">Why Choose DriveEase?</h2>
+        <h2 className="section__title center">Why Choose CHAHID CAR?</h2>
         <p className="section__sub center">
-          We provide the best rental experience with comfort and safety.
+          Reliable booking flow, clean vehicles, and support that stays with
+          you from reservation to return.
         </p>
 
-        <div className="grid3">
-          {items.map((it) => (
-            <div key={it.title} className="feature">
-              <h3 className="feature__title">{it.title}</h3>
-              <p className="feature__desc">{it.desc}</p>
-            </div>
+        <div className="grid4">
+          {items.map((item) => (
+            <article key={item.title} className="feature">
+              <h3 className="feature__title">{item.title}</h3>
+              <p className="feature__desc">{item.desc}</p>
+            </article>
           ))}
         </div>
       </div>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 90" role="img" aria-label="CHAHID CAR mark">
+  <path
+    d="M12 55h38l38-9h83l30 7h10"
+    fill="none"
+    stroke="#b5121b"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M70 46l34-16h75l29 14"
+    fill="none"
+    stroke="#b5121b"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M95 56h47m20 0h26" fill="none" stroke="#b5121b" stroke-width="3.8" stroke-linecap="round" />
+  <circle cx="42" cy="66" r="13" fill="none" stroke="#b5121b" stroke-width="4.2" />
+  <circle cx="169" cy="66" r="13" fill="none" stroke="#b5121b" stroke-width="4.2" />
+</svg>
