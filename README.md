@@ -1,9 +1,9 @@
 # Car Rental Management System
 
-Project is now split into two main folders:
+Project is split into two workspaces:
 
-- `frontend/`: React + Vite application (all UI work done so far).
-- `backend/`: Backend workspace for upcoming API + PostgreSQL development.
+- `frontend/`: React + Vite application.
+- `backend/`: Express + PostgreSQL + Sequelize API.
 
 ## Frontend
 
@@ -15,4 +15,11 @@ npm run dev
 
 ## Backend
 
-Backend folder is prepared and ready for implementation.
+```bash
+cd backend
+npm install
+cp .env.example .env
+npm run db:migrate
+npm run db:seed
+npm run dev
+```
